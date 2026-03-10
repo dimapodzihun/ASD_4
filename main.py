@@ -162,7 +162,6 @@ class List:
   #Завдання №1
   def task_1(self):
     current=self.head
-    txt=""
     temp=0
     while current:         
       if current.data %2 ==0:
