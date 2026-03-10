@@ -169,7 +169,6 @@ class List:
       current=current.next
 
     current=self.head
-    cnt=0
     while current:
       if current.data %2 != 0:
          new_node=Node(temp)
